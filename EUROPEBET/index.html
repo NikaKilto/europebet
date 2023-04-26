@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Poker Legends Philippines</title>
+</head>
+<body>
+    <header>
+        <img id="europebet-logo" src="images/logo.png" alt="europebet-logo">
+        <div class="sign-button-div">
+        <button class="sign-btn" id="sign-up-btn">Sign up</button>
+        <button class="sign-btn" id="sign-in-btn">Sign in</button>
+        </div>
+    </header>
+    <section class="banner-info">
+        <img class="banner" src="images/banner.jpg" alt="poker-legends-philippines">
+        <div class="p-container">
+        <p class="game-type">სლოტები</p><p class="date">10 სექტემბერი - 7 ნოემბერი</p>
+        </div>
+        <h3 class="responsive-text">მოიპოვე 10 საგზურიდან ერთ-ერთი</h3>
+        <h3 class="desktop-text">მოიპოვე მრავალფეროვანი პრიზები და 10 საგზურიდან ერთ-ერთი</h3>
+        <h4>მოხვდი პოკერის ფესტივალზე მალტაში</h4>
+    </section>
+    <section class="leaderboard">
+        <div class="select-leaderboard">
+            <div id="active" class="lb-div" onclick="firstPageShow()">
+                <p id="selected-div-date" class="date">28 ოქტ. - 7 ნოემ.</p>
+                <h5 id="selected-lb-title" class="lb-title">Cash Games</h5>
+            </div>
+            <div id="new-year-series-div" class="lb-div" onclick="secondPageShow()">
+                <p id="new-year-series-date" class="date">10 - 29 დეკ.</p>
+                <h5 id="new-year-series-title" class="lb-title">New Year Series</h5>
+            </div>
+            <div id="final-stage-div" class="lb-div" onclick="thirdPageShow()">
+                <p class="date">28 ოქტ. - 7 ნოემ.</p>
+                <h5 class="lb-title">Final Stage</h5>
+            </div>
+        </div>
+
+
+        <section class="travel-section final-stage-page">
+            <div class="travel-container">
+            <div class="malta-festival-div">
+                <img class="malta-festival-img" src="images/malta-banner.jpeg" alt="malta-pic">
+                <h4 class="malta-festival-title">გაემგზავრე The Festival in Malta-ზე!</h4>
+                <p class="malta-festival-text">The Festival Series ტურნირების ფარგლებში, 
+                    ევროპაბეთი უკვე მეორედ აძლევს პოკერის 
+                    მოთამაშეებს დაუვიწყარი მოგზაურობის შანსს.</p>
+            </div>
+            <div class="malta-festival-date-div">
+                <div class="left-decoration"></div>
+                <p class="malta-festival-date">15-დან 21 მაისის ჩათვლით მალტა 
+                    პოკერის ფესტივალს უმასპინძლებს</p>
+            </div>
+        <div class="travel-types-container">
+            <div class="travel-type-div">
+                    <div class="travel-type-name-div">
+                        <div class="top-decoration"></div>
+                        <p class="travel-type-name">A კატეგორიის საგზურში შედის</p>
+                    </div>
+                <div class="travel-card">
+                    <img class="travel-card-img" src="images/final-item-ticket-icon.png" alt="ticekt-icon">
+                    <p class="travel-card-text">ორმხრივი ავიაბილეთი</p>
+                </div>
+                <div class="travel-card">
+                    <img class="travel-card-img" src="images/final-item-hotel-icon.png" alt="ticekt-icon">
+                    <p class="travel-card-text">The Festival in Malta -ს მეინ ივენთის ბაი-ინი</p>
+                </div>
+                <div class="travel-card">
+                    <img class="travel-card-img" src="images/final-item-event-icon.png" alt="ticekt-icon">
+                    <p class="travel-card-text">Holdem ან Omaha ჰაიროლერ ტურნირის ბაი-ინი</p>
+                </div>
+                <div class="travel-card">
+                    <img class="travel-card-img" src="images/final-item-ticket-icon.png" alt="ticekt-icon">
+                    <p class="travel-card-text">სასტუმრო</p>
+                </div>
+                <div class="travel-card">
+                    <img class="travel-card-img" src="images/final-item-ticket-icon.png" alt="ticekt-icon">
+                    <p class="travel-card-text">€500 სახარჯი ფული</p>
+                </div>
+            </div>
+            <div class="travel-type-div">
+                    <div class="travel-type-name-div">
+                        <div class="top-decoration"></div>
+                        <p class="travel-type-name">A კატეგორიის საგზურში შედის</p>
+                    </div>
+                <div class="travel-card">
+                    <img class="travel-card-img" src="images/final-item-ticket-icon.png" alt="ticekt-icon">
+                    <p class="travel-card-text">ორმხრივი ავიაბილეთი</p>
+                </div>
+                <div class="travel-card">
+                    <img class="travel-card-img" src="images/final-item-hotel-icon.png" alt="ticekt-icon">
+                    <p class="travel-card-text">The Festival in Malta -ს მეინ ივენთის ბაი-ინი</p>
+                </div>
+                <div class="travel-card">
+                    <img class="travel-card-img" src="images/final-item-event-icon.png" alt="ticekt-icon">
+                    <p class="travel-card-text">Holdem ან Omaha ჰაიროლერ ტურნირის ბაი-ინი</p>
+                </div>
+                <div class="travel-card">
+                    <img class="travel-card-img" src="images/final-item-ticket-icon.png" alt="ticekt-icon">
+                    <p class="travel-card-text">სასტუმრო</p>
+                </div>
+                <div class="travel-card">
+                    <img class="travel-card-img" src="images/final-item-ticket-icon.png" alt="ticekt-icon">
+                    <p class="travel-card-text">€500 სახარჯი ფული</p>
+                </div>
+            </div>
+            <div class="travel-type-div">
+                    <div class="travel-type-name-div">
+                        <div class="top-decoration"></div>
+                        <p class="travel-type-name">A კატეგორიის საგზურში შედის</p>
+                    </div>
+                <div class="travel-card">
+                    <img class="travel-card-img" src="images/final-item-ticket-icon.png" alt="ticekt-icon">
+                    <p class="travel-card-text">ორმხრივი ავიაბილეთი</p>
+                </div>
+                <div class="travel-card">
+                    <img class="travel-card-img" src="images/final-item-hotel-icon.png" alt="ticekt-icon">
+                    <p class="travel-card-text">The Festival in Malta -ს მეინ ივენთის ბაი-ინი</p>
+                </div>
+                <div class="travel-card">
+                    <img class="travel-card-img" src="images/final-item-event-icon.png" alt="ticekt-icon">
+                    <p class="travel-card-text">Holdem ან Omaha ჰაიროლერ ტურნირის ბაი-ინი</p>
+                </div>
+                <div class="travel-card">
+                    <img class="travel-card-img" src="images/final-item-ticket-icon.png" alt="ticekt-icon">
+                    <p class="travel-card-text">სასტუმრო</p>
+                </div>
+            </div>
+          </div>
+        </div>    
+        </section>
+
+
+        <div class="new-year-series-page">
+        <section class="event-announce">
+            <div class="top-decoration"></div>
+            <h4 class="events-header">ტურნირები და სატელიტები</h4>
+            <div class="announce-board-div">
+            <p class="events-announce-text">სერიის ფარგლებში, ყოველდღიურად გაიმართება 3 ივენთი:</p>
+              <div class="event-time-container">
+                    <div class="time-div">
+                  <img class="timer-icon" src="images/time-icon.png" alt="timer-icon">
+                  <p class="event-time">19:00 / 19:30 / 20:00</p>
+                    </div>
+                  <div class="event-img-div">
+                    <img class="event-img responsive-img" src="images/promo-left-img-m.png" alt="cards-img">
+                    <img class="event-img responsive-img" src="images/promo-right-img-m.png" alt="cards-img">
+                    <img class="event-img desktop-img" src="images/promo-left-img.png" alt="cards-img">
+                    <img class="event-img desktop-img" src="images/promo-right-img.png" alt="cards-img">
+                  </div>
+                  <p class="rule-text desktop-text">* ყველა ტურნირზე მოხვედრა შესაძლებელია 0 ლარიდან.</p>
+                <label class="poker-lobby-btn-text desktop-text" for="poker-lobby-btn">ტურნირების სრული განრიგის სანახავად გადადი პოკერის ლობიში</label>
+                <button class="poker-lobby-btn desktop-text">პოკერის ლობი</button>
+              </div>
+            </div>
+            <p class="rule-text responsive-text">* ყველა ტურნირზე მოხვედრა შესაძლებელია 0 ლარიდან.</p>
+              <label class="poker-lobby-btn-text responsive-text" for="poker-lobby-btn">ტურნირების სრული განრიგის სანახავად გადადი პოკერის ლობიში</label>
+              <button class="poker-lobby-btn responsive-text">პოკერის ლობი</button>
+        </section>
+    </div>
+
+
+
+        <div id="leaderboard-tables-id" class="table-container cash-games-page new-year-series-page">
+            <div class="rule-div">
+                <div class="top-decoration"></div>
+              <p class="rule cash-games-page">1₾ რეიქი = 1 ქულას</p>
+              <p class="rule new-year-series-page">მოხვდი TOP22 ლიდერბორდში ტურნირებზე დაგროვებული ქულებით</p>
+             </div>
+            <div class="leaderboard-div">
+                <div class="lb-text-div">
+                 <div class="lb-text-top20">
+                 <p class="responsive-text cash-games-page">TOP20 ლიდერბორდი ჰოლდემში</p>
+                 <p class="responsive-text new-year-series-page">ქულების დაგროვების მექანიკა</p>
+                 <p class="desktop-text">ჰოლდემის TOP20 ლიდერბორდი</p>
+                 <img class="cash-games-page" src="images/example-icon.png" alt="example-icon">
+                 <img class="new-year-series-page" src="images/mechanic-icon.png" alt="mechanic-icon">
+                 </div>
+                    <div id="cash-games-new-year-properties" class="lb-properties">
+                        <p>ადგილი</p>
+                        <p>ვაუჩერი</p>
+                        <p>პრიზი</p>
+                    </div>
+                </div>
+            </div>
+    <div class="place-table-div">
+        <div class="place-div">
+            <p class="place">1</p>
+            <p class="voucher-amount">—</p>
+            <p class="prize">A კატეგორიის საგზური</p>
+        </div>
+        <div class="place-div">
+            <p class="place">2</p>
+            <p class="voucher-amount">—</p>
+            <p class="prize">B კატეგორიის საგზური</p>
+        </div>
+        <div class="place-div">
+            <p class="place">3</p>
+            <p class="voucher-amount">1500ლ</p>
+            <p class="prize">სპეც. ტურნირის ბილეთი</p>
+        </div>
+        <div class="place-div">
+            <p class="place">4</p>
+            <p class="voucher-amount">1200ლ</p>
+            <p class="prize">A კატეგორიის საგზური</p>
+        </div>
+        <div class="place-div">
+            <p class="place">5</p>
+            <p class="voucher-amount">1000ლ</p>
+            <p class="prize">A კატეგორიის საგზური</p>
+        </div>
+        <div class="place-div">
+            <p class="place">6</p>
+            <p class="voucher-amount">800ლ</p>
+            <p class="prize">A კატეგორიის საგზური</p>
+        </div>
+    </div>
+    <div class="prizes-div">
+        <div class="prize-container travel-prize">
+            <div class="left-decoration"></div>
+            <img class="prize-icon" src="images/travel-icon-sm.png" alt="travel-icon">
+            <p>The Festival in Malta-ს საგზური</p>
+        </div>
+        <div class="prize-container ticket-prize">
+            <div class="left-decoration"></div>
+            <img class="prize-icon" src="images/ticket-icon-sm.png" alt="ticket-icon">
+            <p>სპეციალური ტურნირის „Cashgame Sharks” ბილეთი, სადაც გათამაშდება The Festival in Malta-ს საგზური</p>
+        </div>
+        <div class="prize-container alta-prize">
+            <div class="left-decoration"></div>
+            <img class="prize-icon" src="images/voucher-logo.png" alt="voucher-icon">
+            <p>„ალტას“ ვაუჩერი</p>
+        </div>
+    </div>
+
+
+    <div class="leaderboard-div cash-games-page">
+        <div class="lb-text-div">
+         <div class="lb-text-top20">
+         <p class="responsive-text">TOP20 ლიდერბორდი ჰოლდემში</p>
+         <p class="desktop-text">ჰოლდემის TOP20 ლიდერბორდი</p>
+         <img src="images/example-icon.png" alt="example-icon">
+         </div>
+            <div id="cash-games-properties" class="lb-properties">
+                <p>ადგილი</p>
+                <p>ვაუჩერი</p>
+                <p>პრიზი</p>
+            </div>
+        </div>
+    </div>
+    <div class="place-table-div cash-games-page">
+        <div class="place-div">
+            <p class="place">1</p>
+            <p class="voucher-amount">—</p>
+            <p class="prize">A კატეგორიის საგზური</p>
+        </div>
+        <div class="place-div">
+            <p class="place">2</p>
+            <p class="voucher-amount">—</p>
+            <p class="prize">B კატეგორიის საგზური</p>
+        </div>
+        <div class="place-div">
+            <p class="place">3</p>
+            <p class="voucher-amount">1500ლ</p>
+            <p class="prize">სპეც. ტურნირის ბილეთი</p>
+        </div>
+        <div class="place-div">
+            <p class="place">4</p>
+            <p class="voucher-amount">1200ლ</p>
+            <p class="prize">A კატეგორიის საგზური</p>
+        </div>
+        <div class="place-div">
+            <p class="place">5</p>
+            <p class="voucher-amount">1000ლ</p>
+            <p class="prize">A კატეგორიის საგზური</p>
+        </div>
+        <div class="place-div">
+            <p class="place">6</p>
+            <p class="voucher-amount">800ლ</p>
+            <p class="prize">A კატეგორიის საგზური</p>
+        </div>
+    </div>
+    <div class="prizes-div cash-games-page">
+        <div class="prize-container travel-prize">
+            <div class="left-decoration"></div>
+            <img class="prize-icon" src="images/travel-icon-sm.png" alt="travel-icon">
+            <p>The Festival in Malta-ს საგზური</p>
+        </div>
+        <div class="prize-container ticket-prize">
+            <div class="left-decoration"></div>
+            <img class="prize-icon" src="images/ticket-icon-sm.png" alt="ticket-icon">
+            <p>სპეციალური ტურნირის „Cashgame Sharks” ბილეთი, სადაც გათამაშდება The Festival in Malta-ს საგზური</p>
+        </div>
+        <div class="prize-container alta-prize">
+            <div class="left-decoration"></div>
+            <img class="prize-icon" src="images/voucher-logo.png" alt="voucher-icon">
+            <p>„ალტას“ ვაუჩერი</p>
+        </div>
+    </div>
+
+
+    <div class="extra-info-div">
+        <p class="extra-info responsive-text">* ლიდერბორდის შედეგები განახლდება</p>
+        <a class="responsive-text" href="_blank">პოკერის ლობიში</a>
+        <p class="extra-info desktop-text">* ლიდერბორდის შედეგები განახლდება
+        <a class="desktop-text" href="_blank">პოკერის ლობიში</a></p>
+        <p class="extra-info second-page-extra-info responsive-text new-year-series-page">* სატურნირო ლიდერბორდის ქულების დათვლაში არ მონაწილეობს ფრიროლები და სატელიტები</p>
+    </div>
+    </div>
+    </section>
+
+
+    <section class="travel-reward-section final-stage-page">
+      <div class="travel-rewards-container">
+        <div class="travel-reward-title-div">
+            <div class="top-decoration"></div>
+            <p class="travel-reward-title">მოიგე საგზური 30 აპრილის ტურნირებზე</p>
+        </div>
+       <div class="reward-card-container"> 
+        <div class="single-reward-container">
+        <div class="reward-card-div">
+            <img class="reward-card-img" src="images/poker-item-1-ticket-icon.png" alt="poker-ticket-icon">
+            <p class="reward-card-title">„Holdem Grinders”</p>
+            <p class="reward-card-text">C კატეგორიის 1 საგზური</p>
+        </div>
+        <div class="reward-card-div">
+            <img class="reward-card-img" src="images/poker-item-1-ticket-icon.png" alt="poker-ticket-icon">
+            <p class="reward-card-title">“Cashgame Sharks”</p>
+            <p class="reward-card-text">C კატეგორიის 1 საგზური</p>
+        </div>
+        <div class="reward-card-div">
+            <img class="reward-card-img" src="images/poker-item-1-ticket-icon.png" alt="poker-ticket-icon">
+            <p class="reward-card-title">„Holdem Grinders”</p>
+            <p class="reward-card-text">C კატეგორიის 1 საგზური</p>
+        </div>
+    </div>
+    <div class="multiple-reward-container">
+        <div class="reward-card-div">
+            <img class="reward-card-img" src="images/poker-item-2-ticket-icon.png" alt="poker-ticket-icon">
+            <p class="reward-card-title">„The Festival in Malta, GTD“</p>
+            <p class="reward-card-text">B კატეგორიის 1 საგზური</p>
+            <p class="reward-card-text">C კატეგორიის 1 საგზური</p>
+            <p class="reward-card-text">*ტურნირში მონაწილეობის მიღება შეუძლია 
+                ნებისმიერ მსურველს 165₾ ბაი-ინის გადახდით.</p>
+        </div>
+        <div class="reward-card-div">
+            <img class="reward-card-img" src="images/poker-item-1-ticket-icon.png" alt="poker-ticket-icon">
+            <p class="reward-card-title">“Cashgame Sharks”</p>
+            <p class="reward-card-text">C კატეგორიის 1 საგზური</p>
+            <p class="reward-card-text">*ტურნირზე მონაწილებას შეძლებენ მხოლოდ 
+                ევროპაბეთის ბეჭდის მფლობელები.</p>
+        </div>
+      </div>
+    </div> 
+    <div class="travel-reward-rule-container">
+        <p class="travel-reward-rule">* თუ მოთამაშე მოიგებს ბეჭედს ორჯერ ან მეტჯერ, 
+            ის The Lord of the Rings ტურნირზე მოხვდება ბეჭდების შესაბამისი რაოდენობის 
+            სტეკით</p>
+        <p class="travel-reward-rule">*ტურნირში მონაწილეობის მიღება შეუძლია ნებისმიერ 
+            მსურველს 165₾-იანი ბაი-ინის გადახდით.</p>
+        </div>
+</div>
+    </section>
+
+    <section class="mystic-key-section final-stage-page">
+        <div class="mystic-key-container">
+        <div class="mystic-key-title-div">
+            <div class="top-decoration"></div>
+            <img class="mystic-key-img" src="images/key-img.png" alt="mystic-key-img">
+            <p class="mystic-key-title">მისტიური გასაღები</p>
+        </div>
+
+        <p class="mystic-reward-rule desktop-text">მოთამაშეები გარკვეული საპრიზო ადგილების 
+            დაკავების შემთხვევაში მიიღებენ საიდუმლო გასაღებს</p>
+
+      <div class="mystic-key-reward-container">
+        <div class="mystic-key-reward">
+            <p class="mystic-key-place">1</p>
+            <p class="mystic-key-reward-text">სპეციალური ტურნირი 
+                Cashgame Sharks II ადგილი</p>
+        </div>
+        <div class="mystic-key-reward">
+            <p class="mystic-key-place">1</p>
+            <p class="mystic-key-reward-text">სპეციალური ტურნირი 
+                Cashgame Sharks II ადგილი</p>
+        </div>
+        <div class="mystic-key-reward">
+            <p class="mystic-key-place">1</p>
+            <p class="mystic-key-reward-text">სპეციალური ტურნირი 
+                Cashgame Sharks II ადგილი</p>
+        </div>
+        <div class="mystic-key-reward">
+            <p class="mystic-key-place">1</p>
+            <p class="mystic-key-reward-text">სპეციალური ტურნირი 
+                Cashgame Sharks II ადგილი</p>
+        </div>
+        <div class="mystic-key-reward">
+            <p class="mystic-key-place">1</p>
+            <p class="mystic-key-reward-text">სპეციალური ტურნირი 
+                Cashgame Sharks II ადგილი</p>
+        </div>
+        <div class="mystic-key-reward">
+            <p class="mystic-key-place">1</p>
+            <p class="mystic-key-reward-text">სპეციალური ტურნირი 
+                Cashgame Sharks II ადგილი</p>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section class="tournaments-section new-year-series-page">
+        <div class="tournaments-container">
+        <h4 class="tournament-header">ყოველდღიური ტურნირები და სატელიტები</h4>
+        <div class="tournament-cards-container">
+            <div class="tournament-card-div">
+                <div class="tournament-text">
+                    <h4 class="tournament-title">Holdem Highrollers</h4>
+                    <p class="prize-money">50 000ლ</p>
+                </div>
+                <div class="tournament-details">
+                    <p class="tournament-type">ბაი-ინი - 550₾</p>
+                    <p class="tournament-date">27 აპრილი</p>
+                </div>
+            </div>
+
+            <div class="tournament-card-div">
+                <div class="tournament-text">
+                    <h4 class="tournament-title">Omaha Highrollerss</h4>
+                    <p class="prize-money">50 000₾</p>
+                </div>
+                <div class="tournament-details">
+                    <p class="tournament-type">ბაი-ინი - 550₾</p>
+                    <p class="tournament-date">28 აპრილი</p>
+                </div>
+            </div>
+
+            <div id="main-tournament-div" class="tournament-card-div">
+                <div class="tournament-text">
+                    <h4 class="tournament-title">Main Events</h4>
+                    <p class="prize-money">150 000₾</p>
+                </div>
+                <div class="tournament-details">
+                    <p class="tournament-type">ბაი-ინი - 550₾</p>
+                    <p id="main-tournament-date" class="tournament-date">29 აპრილი</p>
+                </div>
+            </div>
+        </div>
+        <p class="tournament-prizes">* სამივე ტურნირის გამარჯვებულები მიიღებენ ბეჭდებს 
+            და ფინალურ ეტაპზე, The Lord of the Rings ტურნირზე, იბრძოლებენ 
+            The Festival in Malta-ს საგზურის მისაღებად.</p> 
+        </div>       
+    </section>
+    <section id="terms-id" class="terms-section">
+        <div id="additional-info-id" class="additional-info-div">
+            <div class="top-decoration"></div>
+            <h3 class="additional-info-header">დამატებით შედგება, ქეშგეიმის, ტურნირების და სპინ პოკერის 12 Side ლიდერბორდი</h3>
+            <p class="additional-info">* Side ლიდერბორდების შესახებ დეტალური ინფორმაცია იხილეთ პოკერის ლობიში.</p>
+        </div>
+        <h4 class="terms-header">წესები და პირობები</h4>
+        <div class="terms-div">
+            <p>როდის იწყება და რა ფორმატით გაიმართება აქცია</p>
+            <img class="dropdown-svg" src="images/dropdown.logo.svg" alt="dropdown-svg">
+        </div>
+        <div class="terms-div">
+            <p>როგორ მივიღო აქციაში მონაწილეობა?</p>
+            <img class="dropdown-svg" src="images/dropdown.logo.svg" alt="dropdown-svg">
+        </div>
+        <div class="terms-div">
+            <p>სხვადასხვა</p>
+            <img class="dropdown-svg" src="images/dropdown.logo.svg" alt="dropdown-svg">
+        </div>
+    </section>
+    <section class="similar-offers-section">
+        <h4 class="similar-offers-header">მსგავსი აქციები</h4>
+        
+        <div class="scroll-container">
+            <div class="gridscroll">
+                <img class="gridscroll-img responsive-img" src="images/RoundedRectangleBonus.png" alt="cashback-card-img">
+                <img class="gridscroll-img responsive-img" src="images/RoundedRectangleCar.png" alt="car-card-img">
+                <img class="gridscroll-img responsive-img" src="images/RoundedRectangleJackpot.png" alt="jackpot-card-img">
+                <img class="gridscroll-img responsive-img" src="images/RoundedRectangleBonus.png" alt="cashback-card-img">
+                <img class="gridscroll-img responsive-img" src="images/RoundedRectangleCar.png" alt="car-card-img">
+                <img class="gridscroll-img responsive-img" src="images/RoundedRectangleJackpot.png" alt="jackpot-card-img">
+
+                <img class="gridscroll-img desktop-img" src="images/Rounded-bonus-bg.png" alt="cashback-card-img">
+                <img class="gridscroll-img desktop-img" src="images/Rounded-car-bg.png" alt="car-card-img">
+                <img class="gridscroll-img desktop-img" src="images/Rounded-jackpot-bg.png" alt="jackpot-card-img">
+                <img class="gridscroll-img desktop-img" src="images/Rounded-bonus-bg.png" alt="cashback-card-img">
+            </div>
+          </div>
+
+
+
+    </section>
+
+    <footer>
+        <div class="orange-line"></div>
+        <button class="play-button">ითამაშე</button>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
